@@ -1,0 +1,274 @@
+
+\documentclass[a4,10pt]{ctexart}
+
+\usepackage{ctex}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts,amsmath,amscd,amssymb,amsthm}
+\usepackage{latexsym,bm}
+\usepackage{cite}
+\usepackage{mathtools,mathdots,graphicx,array}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{mpdoc}
+\usepackage{diagbox}
+\usepackage{xcolor,tcolorbox,tikz,tkz-tab,mdframed,tikz-cd}
+\usepackage{framed}
+\usepackage{verbatim}
+\usepackage{extarrows}
+\usepackage{fontspec}
+\newcommand*{\dif}{\mathop{}\!\mathrm{d}}
+\newcommand*{\arsinh}{\mathop{}\!\mathrm{arsinh}}
+\newcommand*{\artanh}{\mathop{}\!\mathrm{artanh}}
+\newcommand*{\arcosh}{\mathop{}\!\mathrm{arcosh}}
+\newcommand*{\Li}{\mathop{}\!\textrm{Li}}
+
+
+
+\begin{document}
+\pagenumbering{roman}
+\title{随机过程课程作业}
+\author{202328015926048-丁力}
+\date{\today}
+\maketitle
+\tableofcontents
+\newpage
+\pagenumbering{arabic}
+\newpage
+
+\section{随机过程及其分类}
+
+\begin{ti}{1}{}
+
+    设随机变量 $X$ 服从参数为 1 的指数分布, 随机变量 $Y \sim N(0,1)$, 
+    且 $X$ 与 $Y$ 独立, 试求随机变量 $Z=\sqrt{2 X}|Y|$ 的分布密度函数。
+    
+    \begin{qj}
+    % 在此处填写答案
+    
+    从上我们可以知道， $X$ 服从参数为$\lambda=1$的指数分布， 
+    $Y$服从标准正态分布。
+    
+    那么，我们可以得到两者对应的概率密度函数:
+
+    \begin{align}
+        f_{X}(x) &= 
+        \begin{cases}
+            e^{-x} , x>0 \\
+            0, \mbox{其他}
+        \end{cases}
+                \\
+        f_{Y}(y) &= \frac{1}{\sqrt{2\pi}} e^{-\frac{1}{y^2}}, y \in R
+    \end{align}
+
+    
+    由于$X$和$Y$相互独立， 所以有:
+
+\begin{equation}
+    f_{XY}(x,y) = f_X(x) \times f_Y(y) =\frac{1}{\sqrt{2\pi}}  e^{-x} e^{-\frac{1}{y^2}}
+\end{equation}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    由于$Z=\sqrt{2 X}|Y|$, 结合上面内容，我们可以知道:
+    \begin{equation}
+    f_Z(z) = 0, z<0
+    \end{equation}
+
+    
+        
+
+    \end{qj}
+    \end{ti}
+    
+    \begin{ti}{2}{}
+
+    设随机变量 $X_1, X_2$ 独立同分布, 服从参数为 $\lambda>0$ 的指数分布, 试证明随机变量
+    \begin{equation}
+    \frac{X_1}{X_1+X_2} \sim U[0,1] 
+   \end{equation}
+    
+    \begin{proof}
+    % 在此处填写答案
+    从上我们可以知道:
+    
+    \begin{align}
+        f_{X_1}(x_1) &=   \begin{cases}
+            \lambda e^{-\lambda x_1}, x_1>0 \\
+            0, \mbox{其他}\\
+        \end{cases} \\
+        f_{X_2}(x_2) &=  \begin{cases}
+            \lambda e^{-\lambda x_2}, x_2>0 \\
+            0, \mbox{其他}\\
+        \end{cases}
+    \end{align}
+    
+    \end{proof}
+    \end{ti}
+    
+    \begin{ti}{3}{}
+
+    设随机向量 $(X, Y)$ 的两个分量相互独立, 且均服从标准正态分布 $N(0,1)$。
+    
+    (a) 分别写出随机变量 $X+Y$ 和 $X-Y$ 的分布密度。
+    
+    \begin{proof}
+    % 在此处填写答案
+    \end{proof}
+    
+    (b) 试问: $X+Y$ 与 $X-Y$ 是否独立？说明理由。
+    
+    \begin{proof}
+    % 在此处填写答案
+    \end{proof}
+    \end{ti}
+    
+    \begin{ti}{4}{}
+
+    设二维随机变量 $(X, Y)$ 的联合密度函数为:
+    \begin{equation}
+    f(x, y)=\left\{\begin{array}{lc}
+    24(1-x) y, & 0<y<x<1 \\
+    0, & \text { 其它 }
+    \end{array}\right.
+   \end{equation}
+    
+    (a) 试求边缘密度函数 $f_X(x)$ 和 $f_Y(y)$, 以及条件密度函数 $f_{X \mid Y}(x \mid y)$ 和 $f_{Y \mid X}(y \mid x)$.
+    
+    \begin{proof}
+    % 在此处填写答案
+    \end{proof}
+    
+    (b) 当 $0<y<1$ 时, 确定 $E\{X \mid Y=y\}$, 以及 $E\{X \mid Y\}$ 的分布密度函数。
+    
+    \begin{proof}
+    % 在此处填写答案
+    \end{proof}
+    \end{ti}
+    
+
+
+% \section{引言}
+
+% 最近闲来无事, 整理了一个写文章看上去比较好用的模板. 
+
+% 你可以对照源代码, 来看一下如何使用这些内容.
+
+% 需要一定的基础. 
+
+% \section{常用环境}
+% \begin{yd}{这是一个约定}{}
+              
+% 约定的内容.
+% \end{yd}
+
+% 上述就是一些文本了. 使用的代码是
+% \begin{lstlisting}{language=latex}
+% \begin{yd}{这是一个约定}{}
+              
+% 约定的内容.
+% \end{yd}
+% \end{lstlisting}
+
+% \begin{zs}
+        
+% 这是一个注释
+    
+% \end{zs}
+    
+% \begin{xt}
+        
+% 这是一个习题.
+    
+% \end{xt}
+    
+% \begin{lt}
+        
+% 这是一个问题.
+    
+% \end{lt}
+
+% \begin{yl}
+        
+% 这是一个引理.
+    
+% \end{yl}
+
+% \begin{dl}{A}{}
+        
+% 这是一个定理.
+    
+% \end{dl}
+    
+% \begin{tl}{A}{}
+        
+% 这是一个推论.
+    
+% \end{tl}
+
+% \begin{dy}{A}{}
+        
+% 这是一个定义.
+    
+% \end{dy}
+
+% \begin{jl}{A}{}
+        
+% 这是一个结论.
+    
+% \end{jl}
+
+% \begin{mt}{A}{}
+        
+% 这是一个命题.
+    
+% \end{mt}
+
+% \begin{ti}{A}{}
+        
+% 这是一个题目.
+    
+% \end{ti}
+
+% \begin{cx}{A}{}
+        
+% 这是一个猜想.
+    
+% \end{cx}
+
+% \begin{zy}
+        
+% 这是注意.
+    
+% \end{zy}
+
+% \begin{ts}
+        
+% 这是一点提示.
+    
+% \end{ts}
+
+% \begin{lt}
+        
+% 这是一个例题.
+    
+% \end{lt}
+
+% \begin{proof}
+% 你还可以加一点证明. 
+% \end{proof}
+
+% 我们注意到, 所有的数学公式将自动转换成行间公式的大小, 比如${1\over 2^k}$, $\sum_{i=0}^{998244353}i$. 
+
+% \section{起源与未来的修改计划}
+
+% 起源与hkmod的模板, 添加了一些常用的标志词. 可以在mpdoc.sty里面进行更改, 相信根据注释你也会. 
+
+% 使用愉快! 
+    
+    
+    
+    
+   
+
+\end{document}
