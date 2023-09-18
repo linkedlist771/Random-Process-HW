@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  14 SEP 2023 00:19
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  18 SEP 2023 13:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,9 +1239,9 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 File: hiiro/milk.png Graphic file (type bmp)
 <hiiro/milk.png>
 LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input line 125.
+(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input line 109.
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 125.
+(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 109.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1250,7 +1250,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
 
-[1] 
+[1]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
+
+[2]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+File: hiiro/milk.png Graphic file (type bmp)
+<hiiro/milk.png>
+File: hiiro/milk.png Graphic file (type bmp)
+<hiiro/milk.png>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
+
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
+
+[5]
+File: hiiro/milk.png Graphic file (type bmp)
+<hiiro/milk.png>
+File: hiiro/milk.png Graphic file (type bmp)
+<hiiro/milk.png>
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 12.4pt, for example:
+(fancyhdr)                \setlength{\headheight}{12.4pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
+
+[6] 
 AED: lastpage setting LastPage
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1259,14 +1312,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
 
-[2] (./main.aux) ) 
+[7] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 37186 strings out of 76179
- 812154 string characters out of 813072
- 11176717 words of memory out of 15878210
- 57239 multiletter control sequences out of 15000+200000
+ 37201 strings out of 76179
+ 812874 string characters out of 813072
+ 11176719 words of memory out of 15878212
+ 57254 multiletter control sequences out of 15000+200000
  484318 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,18n,105p,1190b,1413s stack positions out of 30000i,1000n,20000p,200000b,150000s
+ 102i,14n,105p,1190b,908s stack positions out of 30000i,1000n,20000p,200000b,150000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (8 pages).
