@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  20 SEP 2023 22:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.3)  21 SEP 2023 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1056,7 +1056,7 @@ Package: extarrows 2020/03/12 v1.2.0 Some extensible arrows
 LaTeX Warning: Unused global option(s):
     [a4].
 
-(./main.aux)
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
@@ -1138,7 +1138,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 29.
- (c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+(c:/texlive/2022/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \c@lstlisting=\count401
@@ -1190,8 +1190,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 29.
 LaTeX Info: Redefining \pageref on input line 29.
 LaTeX Info: Redefining \nameref on input line 29.
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
- (c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
@@ -1202,7 +1206,6 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
- (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1238,29 +1241,22 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 44.
 File: hiiro/milk.png Graphic file (type bmp)
 <hiiro/milk.png>
-File: hiiro/milk.png Graphic file (type bmp)
-<hiiro/milk.png>
+
+./main.tex:98: TeX capacity exceeded, sorry [pool size=813072].
+\skip_eval:n ...e:N \tex_glueexpr:D #1\scan_stop: 
+                                                  
+l.98         （a）试求随机变量 $Y$ 的
+                            分布密度函数;
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
  
-AED: lastpage setting LastPage
-LaTeX Font Info:    Font shape `TU/CMUSerif(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/CMUSerif(0)/m/it' tried instead on input line 250.
-LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <10> not available
-(Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 250.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 12.4pt, for example:
-(fancyhdr)                \setlength{\headheight}{12.4pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.4pt}.
-
-[1] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 37188 strings out of 76179
- 812234 string characters out of 813072
- 11176719 words of memory out of 15878212
- 57240 multiletter control sequences out of 15000+200000
- 484326 words of font info for 127 fonts, out of 8000000 for 9000
+ 37185 strings out of 76179
+ 813072 string characters out of 813072
+ 11176583 words of memory out of 15878076
+ 57245 multiletter control sequences out of 15000+200000
+ 484302 words of font info for 124 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,11n,105p,1190b,908s stack positions out of 30000i,1000n,20000p,200000b,150000s
-
-Output written on main.pdf (2 pages).
+Output written on main.pdf (1 page).
