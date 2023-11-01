@@ -1,0 +1,1 @@
+1. **They should use a t-test.**
